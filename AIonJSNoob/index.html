@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            background-color: beige;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+        div {
+            display: block;
+        }
+
+        .container {
+            position: relative;
+            width: 1020px;
+            height: 720px;
+            border: 5px solid #000;
+            background-color: DarkSlateGray;
+            margin: 0 auto;
+            margin-top: 2.5px;
+        }
+
+        .button {
+            width: 50px;
+            text-align: center;
+            padding: 10px;
+            background-color: orange;
+            color: #000;
+            margin-top: 3px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        nav {
+            position: relative;
+        }
+
+        ul {
+            position: absolute;
+            top: 0;
+        }
+
+        .block {
+            width: 24px;
+            height: 24px;
+        }
+
+        #individ1, #individ2, #individ3 {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><input id="number" type="number" max="10" min="1" value="1"></li>
+                <li class="button button-run" onclick="run()">Start</li>
+                <li class="button button-reset">Reset</li>
+                <li class="button button-add-block">Add</li>
+            </ul>
+        </nav>
+        <div class="container">
+
+            <div class="block" id="individ1"></div>
+            <div class="block" id="individ2"></div>
+            <div class="block" id="individ3"></div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
