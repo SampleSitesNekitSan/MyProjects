@@ -1,2 +1,2 @@
 # MyProjects
-Technology: Html, css, javascript, php, cpp, c#, python and (Plugins, Libraries)
+Technology: Html, css, javascript, php, cpp, c# and (Plugins, Libraries)
